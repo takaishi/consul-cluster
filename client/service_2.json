@@ -1,0 +1,6 @@
+{
+  "service": {
+    "name": "service_2",
+    "tags": ["2"]
+  }
+}
