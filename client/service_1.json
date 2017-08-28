@@ -1,6 +1,12 @@
 {
   "service": {
     "name": "service_1",
-    "tags": ["1"]
+    "tags": ["1"],
+    "checks": [
+      {
+        "script": "/usr/local/bin/check_service.sh service_1",
+        "interval": "3s"
+      }
+    ]
   }
 }
